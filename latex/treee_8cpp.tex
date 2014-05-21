@@ -1,0 +1,122 @@
+\hypertarget{treee_8cpp}{\section{treee/treee.cpp File Reference}
+\label{treee_8cpp}\index{treee/treee.\-cpp@{treee/treee.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}stdafx.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}stdio.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$locale.\-h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structtree}{tree}
+\begin{DoxyCompactList}\small\item\em структура дерева \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structtree}{tree} $\ast$ \hyperlink{treee_8cpp_af400144d9f1ca371ce2543f5b29e5bfe}{stree} (\hyperlink{structtree}{tree} $\ast$R\-R, \hyperlink{structtree}{tree} $\ast$r, char info)
+\begin{DoxyCompactList}\small\item\em добавление нового элемента \end{DoxyCompactList}\item 
+void \hyperlink{treee_8cpp_a38ca70171995f5130748457abb14c057}{inorder} (struct \hyperlink{structtree}{tree} $\ast$R\-R)
+\begin{DoxyCompactList}\small\item\em симметрический обход \end{DoxyCompactList}\item 
+void \hyperlink{treee_8cpp_a3a0da89cfb2696b9a039a99960945fd7}{preorder} (struct \hyperlink{structtree}{tree} $\ast$R\-R)
+\begin{DoxyCompactList}\small\item\em прямой обход \end{DoxyCompactList}\item 
+void \hyperlink{treee_8cpp_ae2ccba35dcde3648bc5a93339eec1efc}{postorder} (struct \hyperlink{structtree}{tree} $\ast$R\-R)
+\begin{DoxyCompactList}\small\item\em обратный обход \end{DoxyCompactList}\item 
+int \hyperlink{treee_8cpp_a353674c5af92be7fb389265cde4e5e03}{\-\_\-tmain} (int argc, \-\_\-\-T\-C\-H\-A\-R $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{treee_8cpp_a353674c5af92be7fb389265cde4e5e03}{\index{treee.\-cpp@{treee.\-cpp}!\-\_\-tmain@{\-\_\-tmain}}
+\index{\-\_\-tmain@{\-\_\-tmain}!treee.cpp@{treee.\-cpp}}
+\subsubsection[{\-\_\-tmain}]{\setlength{\rightskip}{0pt plus 5cm}int \-\_\-tmain (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{\-\_\-\-T\-C\-H\-A\-R $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{treee_8cpp_a353674c5af92be7fb389265cde4e5e03}
+\hypertarget{treee_8cpp_a38ca70171995f5130748457abb14c057}{\index{treee.\-cpp@{treee.\-cpp}!inorder@{inorder}}
+\index{inorder@{inorder}!treee.cpp@{treee.\-cpp}}
+\subsubsection[{inorder}]{\setlength{\rightskip}{0pt plus 5cm}void inorder (
+\begin{DoxyParamCaption}
+\item[{struct {\bf tree} $\ast$}]{R\-R}
+\end{DoxyParamCaption}
+)}}\label{treee_8cpp_a38ca70171995f5130748457abb14c057}
+
+
+симметрический обход 
+
+inorder 
+\begin{DoxyParams}{Parameters}
+{\em R\-R} & дерево \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+функция возвращает пустое значение 
+\end{DoxyReturn}
+\hypertarget{treee_8cpp_ae2ccba35dcde3648bc5a93339eec1efc}{\index{treee.\-cpp@{treee.\-cpp}!postorder@{postorder}}
+\index{postorder@{postorder}!treee.cpp@{treee.\-cpp}}
+\subsubsection[{postorder}]{\setlength{\rightskip}{0pt plus 5cm}void postorder (
+\begin{DoxyParamCaption}
+\item[{struct {\bf tree} $\ast$}]{R\-R}
+\end{DoxyParamCaption}
+)}}\label{treee_8cpp_ae2ccba35dcde3648bc5a93339eec1efc}
+
+
+обратный обход 
+
+postorder 
+\begin{DoxyParams}{Parameters}
+{\em R\-R} & дерево \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+функция возвращает пустое значение 
+\end{DoxyReturn}
+\hypertarget{treee_8cpp_a3a0da89cfb2696b9a039a99960945fd7}{\index{treee.\-cpp@{treee.\-cpp}!preorder@{preorder}}
+\index{preorder@{preorder}!treee.cpp@{treee.\-cpp}}
+\subsubsection[{preorder}]{\setlength{\rightskip}{0pt plus 5cm}void preorder (
+\begin{DoxyParamCaption}
+\item[{struct {\bf tree} $\ast$}]{R\-R}
+\end{DoxyParamCaption}
+)}}\label{treee_8cpp_a3a0da89cfb2696b9a039a99960945fd7}
+
+
+прямой обход 
+
+preorder 
+\begin{DoxyParams}{Parameters}
+{\em R\-R} & дерево \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+функция возвращает пустое значение 
+\end{DoxyReturn}
+\hypertarget{treee_8cpp_af400144d9f1ca371ce2543f5b29e5bfe}{\index{treee.\-cpp@{treee.\-cpp}!stree@{stree}}
+\index{stree@{stree}!treee.cpp@{treee.\-cpp}}
+\subsubsection[{stree}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tree}$\ast$ stree (
+\begin{DoxyParamCaption}
+\item[{{\bf tree} $\ast$}]{R\-R, }
+\item[{{\bf tree} $\ast$}]{r, }
+\item[{char}]{info}
+\end{DoxyParamCaption}
+)}}\label{treee_8cpp_af400144d9f1ca371ce2543f5b29e5bfe}
+
+
+добавление нового элемента 
+
+stree 
+\begin{DoxyParams}{Parameters}
+{\em R\-R} & корневой элемент \\
+\hline
+{\em r} & новый элемент \\
+\hline
+{\em info} & данные \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+R\-R корневой элемент с указателем на новый 
+\end{DoxyReturn}
+проверка наличия сына. В случае его отсутствия создается новый, в противном случае указатель спускается ниже в соответствии с правилом и повторяет данное действие за счет рекурсии 
